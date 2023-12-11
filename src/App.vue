@@ -5,11 +5,11 @@ import axios from 'axios'; //importo Axios
 import { store } from "./store.js" //state management
 
 /* Import components */
-
+import AppComponent from "./components/AppComponent.vue"
 
 export default {
   components: {
-
+    AppComponent,
   },
 
   data() {
@@ -34,7 +34,7 @@ export default {
 
   </header>
   <main>
-
+    <AppComponent />
   </main>
   <footer>
 
